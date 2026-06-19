@@ -13,6 +13,7 @@ pipeline {
             steps {
                 echo 'Building Python application...'
                 sh 'python3 --version'
+		sh 'python3 app.py'
             }
         }
 
